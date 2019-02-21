@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple App Notes</string>
+    <string name="title_edit_note">Edit note</string>
+    <string name="modify_note_text">Modify note</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_edit_notes_activitiy">EditNotesActivitiy</string>
+    <string name="editTextTitle">Title</string>
+    <string name="editTextDescription">Description</string>
+    <string name="btnAdd">Add note</string>
+    <string name="btnModify">Modify note</string>
+    <string name="mainTitle">Your notes</string>
+    <string name="add_note_error">Title and description must have at least one character.</string>
+</resources>
