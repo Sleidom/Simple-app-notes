@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notas simples</string>
+    <string name="title_edit_note">Editar nota</string>
+    <string name="modify_note_text">Modificar nota</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_edit_notes_activitiy">EditNotesActivitiy</string>
+    <string name="editTextTitle">Titulo</string>
+    <string name="editTextDescription">Descripción</string>
+    <string name="btnAdd">Añadir nota</string>
+    <string name="btnModify">Modificar nota</string>
+    <string name="mainTitle">Tus notas</string>
+    <string name="add_note_error">Titulo y descripción deben tener al menos un cáracter.</string>
+</resources>
