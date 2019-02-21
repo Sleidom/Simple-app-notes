@@ -141,7 +141,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.ViewHolder> {
 
         // set dialog message
         alertDialogBuilder
-                .setMessage(act.getString(R.string.confirmation_delete) + " '" + titleStr + "'?")
+                .setMessage(act.getString(R.string.confirmation_delete) + " '" + titleStr + "' ?")
                 .setCancelable(false)
                 .setPositiveButton(act.getString(R.string.Yes),new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
