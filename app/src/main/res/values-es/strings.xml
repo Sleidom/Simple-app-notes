@@ -10,4 +10,8 @@
     <string name="btnModify">Modificar nota</string>
     <string name="mainTitle">Tus notas</string>
     <string name="add_note_error">Titulo y descripción deben tener al menos un cáracter.</string>
+    <string name="confirmation_delete">Estas seguro de eliminar</string>
+    <string name="delete_note">¿Eliminar nota?</string>
+    <string name="Yes">Si</string>
+    <string name="No">No</string>
 </resources>

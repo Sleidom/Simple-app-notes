@@ -10,4 +10,8 @@
     <string name="btnModify">Modify note</string>
     <string name="mainTitle">Your notes</string>
     <string name="add_note_error">Title and description must have at least one character.</string>
+    <string name="confirmation_delete">Are you sure you want to delete</string>
+    <string name="delete_note">Delete note?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
 </resources>

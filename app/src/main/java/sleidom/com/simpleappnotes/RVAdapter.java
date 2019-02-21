@@ -82,7 +82,6 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder historyViewHolder, int i) {
         historyViewHolder.bind(allNotes.get(i).split(";")[0], allNotes.get(i).split(";")[1]);
-        //historyViewHolder.bind(allNotes.get(i), "aS");
     }
 
     @Override
@@ -138,18 +137,18 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.ViewHolder> {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(act);
 
         // set title
-        alertDialogBuilder.setTitle("Delete note?");
+        alertDialogBuilder.setTitle(act.getString(R.string.delete_note));
 
         // set dialog message
         alertDialogBuilder
-                .setMessage("Are you sure you want to delete '" + titleStr + "' note?")
+                .setMessage(act.getString(R.string.confirmation_delete) + " '" + titleStr + "'?")
                 .setCancelable(false)
-                .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
+                .setPositiveButton(act.getString(R.string.Yes),new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
                         deleteNote(titleStr);
                     }
                 })
-                .setNegativeButton("No",new DialogInterface.OnClickListener() {
+                .setNegativeButton(act.getString(R.string.No),new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
                         dialog.cancel();
                     }
