@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple App Notes</string>
+    <string name="app_name">Simple Notes</string>
     <string name="title_edit_note">Edit note</string>
     <string name="modify_note_text">Modify note</string>
     <string name="title_activity_main2">Main2Activity</string>
