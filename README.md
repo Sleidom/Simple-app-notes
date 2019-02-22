@@ -1,4 +1,4 @@
 # Simple-app-notes
-An Android app to write and save simple notes.
+Just an app to write and edit fast notes in a simple way.
 
-Just an app to write and edit fast notes in a simple way. 
+You can download the app here: https://play.google.com/store/apps/details?id=sleidom.com.simpleappnotes
